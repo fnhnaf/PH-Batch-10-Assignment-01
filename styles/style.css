@@ -5,6 +5,45 @@
   font-family: "Azeret Mono", monospace;
 }
 /*
+Navbar Style
+*/
+nav {
+  width: 80%;
+  height: 100px;
+  /* border: 2px solid red; */
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .author-name {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+  cursor: pointer;
+}
+nav .nav-btn {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  background: transparent;
+  padding: 17px 24px;
+  cursor: pointer;
+}
+/*
 Header Section Styles
 */
 .main-header {
