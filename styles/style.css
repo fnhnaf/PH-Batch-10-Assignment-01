@@ -1,0 +1,516 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+}
+/*
+Header Section Styles
+*/
+.main-header {
+  width: 100%;
+  height: 652px;
+  /* border: 2px solid red; */
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-container {
+  max-width: 998px;
+  height: 582px;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+  /* text-align: center; */
+  padding: 20px;
+}
+.hero-container .hero-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 37px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.hero-container .hero-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.hero-container .hero-btn-container .hero-btn {
+  background: rgb(13, 19, 33);
+  border: none;
+  border-radius: 8px;
+  padding: 21px 24px;
+  /* color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0; */
+}
+.hero-container .hero-btn-container .hero-btn a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 23px;
+}
+/*
+Developing-disclimer-Styles
+
+*/
+.developing-disclimer-container {
+  max-width: 1140px;
+  height: 1395px;
+  /* border: 2px solid red; */
+  margin: 74px auto;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.developing-disclimer-container .developing-main-container {
+  width: 946px;
+  height: 1072px;
+  /* border: 2px solid green; */
+}
+.developing-main-container .developing-heading {
+  width: 100%;
+  height: 163px;
+  /* border: 2px solid yellow; */
+}
+.developing-main-container .developing-heading .developing-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.developing-main-container .developing-heading .developing-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  margin-top: 24px;
+  text-align: center;
+  opacity: 0.7;
+}
+.about-web-developing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  width: 946px;
+  height: 1072px;
+  /* border: 2px solid blueviolet; */
+}
+.about-web-developing .first-desclimer,
+.second-desclimer,
+.third-desclimer {
+  width: 946px;
+  height: 336px;
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 48px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-sizing: border-box;
+}
+.about-web-developing .first-desclimer,
+.third-desclimer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about-web-developing .first-desclimer .description-details-child-container {
+  width: 477px;
+  height: 220px;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.about-web-developing .second-desclimer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 32px;
+}
+.about-web-developing .second-desclimer .image-desclimer {
+  width: 240px;
+  height: 240px;
+}
+.about-web-developing .second-desclimer .description-details-child-container {
+  width: 477px;
+  height: 220px;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.about-web-developing .third-desclimer .description-details-child-container {
+  width: 477px;
+  height: 220px;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.developing-main-container .about-web-developing h2 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.developing-main-container .about-web-developing .second-desclimer h2 {
+  font-size: 19px;
+}
+.developing-main-container .about-web-developing p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.developing-main-container .about-web-developing .lrn-more-btn {
+  background: transparent;
+  padding: 12px 20px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+}
+.developing-main-container .about-web-developing .lrn-more-btn:hover {
+  color: red;
+  transition: 0.5;
+}
+/*
+my-inspiration-developing-styles
+*/
+.my-inspiration-developing {
+  width: 1140px;
+  height: 775px;
+  margin: 100px auto;
+  /* border: 2px solid red; */
+}
+.my-inspiration-developing .inspiration-heading-container {
+  width: 852px;
+  height: 113px;
+  margin: 0 auto;
+  /* border: 2px solid green; */
+}
+.my-inspiration-developing .inspiration-heading-container .inspiration-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+.my-inspiration-developing
+  .inspiration-heading-container
+  .inspiration-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 24px;
+  text-align: center;
+}
+.youtube-video-link {
+  width: 1140px;
+  height: 614px;
+  margin-top: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.youtube-video-link iframe {
+  border-radius: 16px;
+}
+/*
+My Web developing Skill styles
+*/
+.Skill-front-end {
+  width: 1140px;
+  height: 460px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  margin-bottom: 111px;
+}
+.Skill-front-end .my-targer {
+  width: 852px;
+  height: 113px;
+  /* border: 2px solid green; */
+  margin: 0 auto;
+}
+.Skill-front-end .my-targer .target-title {
+  text-align: center;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+}
+.Skill-front-end .my-targer .target-description {
+  text-align: center;
+  margin-top: 24px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 26px;
+}
+.Skill-front-end .front-end-skill-container {
+  width: 1140px;
+  height: 299px;
+  /* border: 2px solid green; */
+  margin-top: 48px;
+}
+.Skill-front-end .front-end-skill-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+.Skill-front-end .front-end-skill-container .my-all-skills {
+  width: 364px;
+  height: 299px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+}
+.Skill-front-end .front-end-skill-container .html-skills {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.Skill-front-end .front-end-skill-container .css-skills {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.Skill-front-end .front-end-skill-container .js-skills {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.Skill-front-end .front-end-skill-container .my-all-skills h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.Skill-front-end .front-end-skill-container .my-all-skills p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 26px;
+}
+.Skill-front-end .front-end-skill-container .my-all-skills a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration: underline;
+}
+/*
+Backhand-Skill-Styles
+*/
+.backhand-skill-section {
+  width: 1140px;
+  height: 866px;
+  border: 2px solid red;
+  margin: 100px auto;
+}
+/*
+Suport section Styles
+*/
+.support-container {
+  width: 1140px;
+  height: 313px;
+  /* border: 2px solid red; */
+  margin: 50px auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../assets/handshake.jpg");
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../assets/handshake.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  /* background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.support-container .support-child-container {
+  width: 1044px;
+  height: 185px;
+  /* border: 2px solid green; */
+}
+.support-container .support-child-container .support {
+  width: 730px;
+  height: 104px;
+  /* border: 2px solid yellow; */
+  margin: 0 auto;
+  color: white;
+}
+.support-container .support-child-container .support h1 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.support-container .support-child-container .support p {
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.support-container .support-child-container .users-input-data {
+  text-align: center;
+  width: 684px;
+  height: 57px;
+  margin: 24px auto;
+  display: flex;
+  gap: 16px;
+}
+.support-container .support-child-container .users-input-data input {
+  width: 548px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  outline: none;
+  padding: 19px 20px;
+}
+.support-container
+  .support-child-container
+  .users-input-data
+  input::placeholder {
+  /* padding: 19px 20px; */
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+}
+.support-container .support-child-container .users-input-data button {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 17px 20px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+  border: transparent;
+}
+/*
+Footer Styles Section
+*/
+footer {
+  width: 100%;
+  height: 100px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.social-address {
+  width: 1140px;
+  height: 36px;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-address .my-name h6 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.social-address .social-icons img {
+  margin-left: 24px;
+}
