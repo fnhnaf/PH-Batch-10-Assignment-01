@@ -131,8 +131,9 @@ Developing-disclimer-Styles
   /* border: 2px solid green; */
 }
 .developing-main-container .developing-heading {
-  width: 100%;
+  width: 852px;
   height: 163px;
+  margin: 0 auto;
   /* border: 2px solid yellow; */
 }
 .developing-main-container .developing-heading .developing-title {
