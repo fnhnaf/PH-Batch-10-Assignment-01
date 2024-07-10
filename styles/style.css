@@ -3,8 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Azeret Mono", monospace;
-}
-html {
   scroll-behavior: smooth;
 }
 /*
@@ -21,13 +19,12 @@ nav {
   align-items: center;
 }
 nav .author-name {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 28px;
+  color: rgb(13, 19, 33);
   font-weight: 800;
   line-height: 33px;
-  letter-spacing: 0%;
   text-align: left;
+  letter-spacing: 0px;
   cursor: pointer;
 }
 nav .nav-btn {
@@ -35,12 +32,11 @@ nav .nav-btn {
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 20px;
+  color: rgb(13, 19, 33);
   font-weight: 600;
   line-height: 23px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-align: center;
   background: transparent;
   padding: 17px 24px;
@@ -52,7 +48,6 @@ Header Section Styles
 .main-header {
   width: 100%;
   height: 652px;
-  /* border: 2px solid red; */
   background-image: url(../assets/Hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -66,31 +61,26 @@ Header Section Styles
 .hero-container {
   max-width: 998px;
   height: 582px;
-  /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   gap: 20px;
-  /* text-align: center; */
   padding: 20px;
 }
 .hero-container .hero-title {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 37px;
-  font-weight: 800;
+  color: rgb(13, 19, 33);
   line-height: 68px;
-  letter-spacing: 0%;
+  font-weight: 800;
+  letter-spacing: 0px;
   text-align: center;
 }
 .hero-container .hero-description {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
+  color: rgb(13, 19, 33);
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-align: center;
 }
 .hero-container .hero-btn-container .hero-btn {
@@ -98,18 +88,12 @@ Header Section Styles
   border: none;
   border-radius: 8px;
   padding: 21px 24px;
-  /* color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-weight: 600px;
-  line-height: 23px;
-  text-align: center;
-  letter-spacing: 0; */
 }
 .hero-container .hero-btn-container .hero-btn a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 600px;
+  color: rgb(255, 255, 255);
   line-height: 23px;
 }
 /*
@@ -119,7 +103,6 @@ Developing-disclimer-Styles
 .developing-disclimer-container {
   max-width: 1140px;
   height: 1395px;
-  /* border: 2px solid red; */
   margin: 74px auto;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
@@ -131,29 +114,25 @@ Developing-disclimer-Styles
 .developing-disclimer-container .developing-main-container {
   width: 946px;
   height: 1072px;
-  /* border: 2px solid green; */
 }
 .developing-main-container .developing-heading {
   width: 852px;
   height: 163px;
   margin: 0 auto;
-  /* border: 2px solid yellow; */
 }
 .developing-main-container .developing-heading .developing-title {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 32px;
+  color: rgb(13, 19, 33);
   font-weight: 800;
   line-height: 37px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-align: center;
 }
 .developing-main-container .developing-heading .developing-description {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
-  font-weight: 400;
+  color: rgb(13, 19, 33);
   line-height: 26px;
+  font-weight: 400;
   letter-spacing: 0%;
   margin-top: 24px;
   text-align: center;
@@ -166,14 +145,12 @@ Developing-disclimer-Styles
   gap: 32px;
   width: 946px;
   height: 1072px;
-  /* border: 2px solid blueviolet; */
 }
 .about-web-developing .first-desclimer,
 .second-desclimer,
 .third-desclimer {
   width: 946px;
   height: 336px;
-  /* border: 2px solid blue; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -184,7 +161,6 @@ Developing-disclimer-Styles
     rgb(255, 255, 255),
     rgba(255, 255, 255, 0) 100%
   );
-  box-sizing: border-box;
 }
 .about-web-developing .first-desclimer,
 .third-desclimer {
@@ -195,7 +171,6 @@ Developing-disclimer-Styles
 .about-web-developing .first-desclimer .description-details-child-container {
   width: 477px;
   height: 220px;
-  /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -214,7 +189,6 @@ Developing-disclimer-Styles
 .about-web-developing .second-desclimer .description-details-child-container {
   width: 477px;
   height: 220px;
-  /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -223,29 +197,26 @@ Developing-disclimer-Styles
 .about-web-developing .third-desclimer .description-details-child-container {
   width: 477px;
   height: 220px;
-  /* border: 2px solid green; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
 .developing-main-container .about-web-developing h2 {
-  color: rgba(13, 19, 33, 0.7);
-  font-family: Azeret Mono;
   font-size: 20px;
-  font-weight: 700;
+  color: rgba(13, 19, 33, 0.7);
   line-height: 36px;
-  letter-spacing: 0%;
+  font-weight: 700;
+  letter-spacing: 0px;
   text-align: left;
 }
 .developing-main-container .about-web-developing .second-desclimer h2 {
   font-size: 19px;
 }
 .developing-main-container .about-web-developing p {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 13px;
   font-weight: 400;
+  color: rgb(13, 19, 33);
   opacity: 0.7;
   line-height: 26px;
   letter-spacing: 0%;
@@ -255,9 +226,8 @@ Developing-disclimer-Styles
 .developing-main-container .about-web-developing .lrn-more-btn {
   background: transparent;
   padding: 12px 20px;
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 20px;
+  color: rgb(13, 19, 33);
   font-weight: 600;
   line-height: 23px;
   cursor: pointer;
@@ -276,29 +246,25 @@ my-inspiration-developing-styles
   width: 1140px;
   height: 775px;
   margin: 100px auto;
-  /* border: 2px solid red; */
 }
 .my-inspiration-developing .inspiration-heading-container {
   width: 852px;
   height: 113px;
   margin: 0 auto;
-  /* border: 2px solid green; */
 }
 .my-inspiration-developing .inspiration-heading-container .inspiration-title {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
-  text-align: center;
   font-size: 32px;
   font-weight: 800;
+  color: rgb(13, 19, 33);
+  text-align: center;
   line-height: 37px;
 }
 .my-inspiration-developing
   .inspiration-heading-container
   .inspiration-description {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
+  color: rgb(13, 19, 33);
   line-height: 26px;
   margin-top: 24px;
   text-align: center;
@@ -307,7 +273,6 @@ my-inspiration-developing-styles
   width: 1140px;
   height: 614px;
   margin-top: 48px;
-  box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
   display: flex;
@@ -325,29 +290,25 @@ My Web developing Skill styles
   width: 1140px;
   height: 460px;
   margin: 0 auto;
-  /* border: 2px solid red; */
   margin-bottom: 111px;
 }
 .Skill-front-end .my-targer {
   width: 852px;
   height: 113px;
-  /* border: 2px solid green; */
   margin: 0 auto;
 }
 .Skill-front-end .my-target .target-title {
-  text-align: center;
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 32px;
   font-weight: 800;
+  text-align: center;
+  color: rgb(13, 19, 33);
   line-height: 37px;
 }
 .Skill-front-end .my-target .target-description {
   text-align: center;
+  font-size: 16px;
   margin-top: 24px;
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
-  font-size: 16px;
   opacity: 0.7;
   font-weight: 400;
   line-height: 26px;
@@ -356,7 +317,6 @@ My Web developing Skill styles
 .Skill-front-end .front-end-skill-container {
   width: 1140px;
   height: 299px;
-  /* border: 2px solid green; */
   margin-top: 48px;
 }
 .Skill-front-end .front-end-skill-container {
@@ -386,25 +346,22 @@ My Web developing Skill styles
   background: rgba(255, 223, 0, 0.05);
 }
 .Skill-front-end .front-end-skill-container .my-all-skills h1 {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 24px;
   font-weight: 800;
+  color: rgb(13, 19, 33);
   line-height: 36px;
 }
 .Skill-front-end .front-end-skill-container .my-all-skills p {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
+  color: rgb(13, 19, 33);
   opacity: 0.7;
   line-height: 26px;
 }
 .Skill-front-end .front-end-skill-container .my-all-skills a {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 700;
+  color: rgb(13, 19, 33);
   line-height: 19px;
   text-decoration: underline;
 }
@@ -418,31 +375,27 @@ Backhand-Skill-Styles
 .backhand-skill-section {
   width: 1140px;
   height: 866px;
-  /* border: 2px solid red; */
   margin: 100px auto;
 }
 .next-target-heading-container {
   width: 946px;
   height: 113px;
-  /* border: 2px solid blue; */
   margin: 0 auto;
 }
 .next-target-heading-container .next-target-title {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 32px;
   font-weight: 800;
+  color: rgb(13, 19, 33);
   line-height: 37px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-align: center;
 }
 .next-target-heading-container .next-target-description {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
+  color: rgb(13, 19, 33);
   line-height: 26px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-align: center;
   opacity: 0.7;
   margin-top: 24px;
@@ -450,7 +403,6 @@ Backhand-Skill-Styles
 .backhand-skill-section .next-target-skill-container {
   width: 1140px;
   height: 705px;
-  /* border: 2px solid yellow; */
   margin-top: 48px;
   display: flex;
   flex-direction: column;
@@ -485,7 +437,6 @@ Backhand-Skill-Styles
   .skill-desclimer
   h1 {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 24px;
   font-weight: 800;
   line-height: 36px;
@@ -498,11 +449,10 @@ Backhand-Skill-Styles
   .skill-desclimer
   p {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-align: left;
 }
 .backhand-skill-section
@@ -511,11 +461,10 @@ Backhand-Skill-Styles
   .skill-desclimer
   a {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 700;
   line-height: 19px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-align: left;
   text-decoration-line: underline;
 }
@@ -562,31 +511,27 @@ Suport section Styles
 .support-container .support-child-container {
   width: 1044px;
   height: 185px;
-  /* border: 2px solid green; */
 }
 .support-container .support-child-container .support {
   width: 730px;
   height: 104px;
-  /* border: 2px solid yellow; */
   margin: 0 auto;
   color: white;
 }
 .support-container .support-child-container .support h1 {
-  color: rgb(255, 255, 255);
-  font-family: Azeret Mono;
   font-size: 32px;
   font-weight: 700;
+  color: rgb(255, 255, 255);
   line-height: 36px;
   text-align: center;
 }
 .support-container .support-child-container .support p {
   margin-top: 16px;
-  color: rgb(255, 255, 255);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
+  color: rgb(255, 255, 255);
   line-height: 26px;
-  letter-spacing: 0%;
+  letter-spacing: 0px;
   text-align: center;
   opacity: 0.7;
 }
@@ -613,9 +558,7 @@ Suport section Styles
   .support-child-container
   .users-input-data
   input::placeholder {
-  /* padding: 19px 20px; */
   color: rgba(13, 19, 33, 0.4);
-  font-family: Azeret Mono;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
@@ -626,11 +569,10 @@ Suport section Styles
   background: rgb(255, 255, 255);
   padding: 17px 20px;
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
-  letter-spacing: 0%;
+  letter-spacing: px;
   text-align: center;
   cursor: pointer;
   border: transparent;
@@ -641,7 +583,6 @@ Footer Styles Section
 footer {
   width: 100%;
   height: 100px;
-  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -651,17 +592,15 @@ footer {
 .social-address {
   width: 1140px;
   height: 36px;
-  /* border: 2px solid green; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 .social-address .my-name h6 {
-  color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
+  color: rgb(13, 19, 33);
   line-height: 23px;
   letter-spacing: 0px;
   text-align: center;
