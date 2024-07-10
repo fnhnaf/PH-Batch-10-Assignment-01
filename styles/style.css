@@ -412,6 +412,32 @@ Backhand-Skill-Styles
   border: 2px solid red;
   margin: 100px auto;
 }
+.next-target-heading-container {
+  width: 946px;
+  height: 113px;
+  border: 2px solid blue;
+  margin: 0 auto;
+}
+.next-target-heading-container .next-target-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.next-target-heading-container .next-target-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 24px;
+}
 /*
 Suport section Styles
 */
