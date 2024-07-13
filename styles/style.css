@@ -108,7 +108,7 @@ Developing-disclimer-Styles
   background: rgba(13, 19, 33, 0.02);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 .developing-disclimer-container .developing-main-container {
@@ -607,4 +607,74 @@ footer {
 }
 .social-address .social-icons img {
   margin-left: 24px;
+}
+.hide {
+  display: none;
+}
+/*
+Media Quearis
+*/
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px auto;
+  }
+
+  .main-header {
+    background-image: none;
+  }
+  .developing-disclimer-container {
+    margin-top: 200px;
+  }
+  .developing-disclimer-container .developing-heading {
+    padding: 0 265px;
+  }
+  .about-web-developing .first-desclimer {
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 50px;
+  }
+  .about-web-developing .first-desclimer .description-details-child-container {
+    padding: 0 80px;
+    gap: 20px;
+  }
+  .about-web-developing .second-desclimer {
+    flex-direction: column;
+    padding: 0 300px;
+    gap: 50px;
+    margin-top: 290px;
+  }
+  .about-web-developing .second-desclimer .description-details-child-container {
+    gap: 20px;
+    padding-right: 130px;
+    padding-left: 20px;
+  }
+  .about-web-developing .third-desclimer {
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 190px;
+  }
+  .about-web-developing .third-desclimer .description-details-child-container {
+    padding: 0 80px;
+    gap: 20px;
+  }
+  .my-inspiration-developing {
+    margin: 0;
+  }
+  .my-inspiration-developing .inspiration-heading-container {
+    margin-top: 42rem;
+    padding-right: 490px;
+    padding-left: 56px;
+    margin-left: 0;
+  }
+  .youtube-video-link {
+    width: 37%;
+    height: auto;
+    margin-top: 190px;
+  }
+  .youtube-video-link iframe {
+    width: 368px;
+    height: 200px;
+  }
 }
