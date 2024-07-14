@@ -108,6 +108,7 @@ Developing-disclimer-Styles
   background: rgba(13, 19, 33, 0.02);
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   /* justify-content: center; */
   align-items: center;
 }
@@ -142,6 +143,7 @@ Developing-disclimer-Styles
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 32px;
   width: 946px;
   height: 1072px;
@@ -154,6 +156,7 @@ Developing-disclimer-Styles
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
   padding: 48px;
   border-radius: 16px;
   background: linear-gradient(
@@ -167,6 +170,7 @@ Developing-disclimer-Styles
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .about-web-developing .first-desclimer .description-details-child-container {
   width: 477px;
@@ -175,11 +179,13 @@ Developing-disclimer-Styles
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .about-web-developing .second-desclimer {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  flex-wrap: wrap;
   gap: 32px;
 }
 .about-web-developing .second-desclimer .image-desclimer {
@@ -193,6 +199,7 @@ Developing-disclimer-Styles
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .about-web-developing .third-desclimer .description-details-child-container {
   width: 477px;
@@ -201,6 +208,7 @@ Developing-disclimer-Styles
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 .developing-main-container .about-web-developing h2 {
   font-size: 20px;
@@ -279,6 +287,7 @@ my-inspiration-developing-styles
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .youtube-video-link iframe {
   border-radius: 16px;
@@ -323,6 +332,7 @@ My Web developing Skill styles
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .Skill-front-end .front-end-skill-container .my-all-skills {
@@ -331,6 +341,7 @@ My Web developing Skill styles
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 40px;
 }
 .Skill-front-end .front-end-skill-container .html-skills {
@@ -429,6 +440,7 @@ Backhand-Skill-Styles
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .backhand-skill-section
@@ -507,6 +519,7 @@ Suport section Styles
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .support-container .support-child-container {
   width: 1044px;
@@ -586,6 +599,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
 }
@@ -596,6 +610,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .social-address .my-name h6 {
   font-size: 20px;
@@ -608,9 +623,9 @@ footer {
 .social-address .social-icons img {
   margin-left: 24px;
 }
-.hide {
+/* .hide {
   display: none;
-}
+} */
 /*
 Media Quearis
 */
@@ -623,58 +638,5 @@ Media Quearis
 
   .main-header {
     background-image: none;
-  }
-  .developing-disclimer-container {
-    margin-top: 200px;
-  }
-  .developing-disclimer-container .developing-heading {
-    padding: 0 265px;
-  }
-  .about-web-developing .first-desclimer {
-    flex-direction: column;
-    gap: 100px;
-    margin-top: 50px;
-  }
-  .about-web-developing .first-desclimer .description-details-child-container {
-    padding: 0 80px;
-    gap: 20px;
-  }
-  .about-web-developing .second-desclimer {
-    flex-direction: column;
-    padding: 0 300px;
-    gap: 50px;
-    margin-top: 290px;
-  }
-  .about-web-developing .second-desclimer .description-details-child-container {
-    gap: 20px;
-    padding-right: 130px;
-    padding-left: 20px;
-  }
-  .about-web-developing .third-desclimer {
-    flex-direction: column;
-    gap: 100px;
-    margin-top: 190px;
-  }
-  .about-web-developing .third-desclimer .description-details-child-container {
-    padding: 0 80px;
-    gap: 20px;
-  }
-  .my-inspiration-developing {
-    margin: 0;
-  }
-  .my-inspiration-developing .inspiration-heading-container {
-    margin-top: 42rem;
-    padding-right: 490px;
-    padding-left: 56px;
-    margin-left: 0;
-  }
-  .youtube-video-link {
-    width: 37%;
-    height: auto;
-    margin-top: 190px;
-  }
-  .youtube-video-link iframe {
-    width: 368px;
-    height: 200px;
   }
 }
